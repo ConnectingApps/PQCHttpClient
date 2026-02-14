@@ -1,0 +1,8 @@
+services:
+  pqcheader:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pqcheader-mlkem
+    environment:
+      - DOTNET_SYSTEM_NET_SECURITY_TLSCIPHERSUITES=
